@@ -1,0 +1,58 @@
+.todo-app{
+    width: 500px;
+    height: 600px;
+    background-color: #adb5bd45;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tabs{
+    width: 100%;
+    margin-top: 16px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.tabs button{
+    width: 100px;
+    border: none;
+    font-size: large;
+    background-color: #2888e845;
+    color: black;
+}
+.tabs button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.add-task{
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+}
+.add-task input{
+    width: 300px;
+}
+
+.todo-app ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin-top: 16px;
+    row-gap: 1rem;
+    list-style-type: none;
+}
+.todo-app li{
+    position: relative;
+    display: flex;
+    font-size: large;
+    gap: 1rem;
+    align-items: center;
+}
+
+.todo-app li button{
+    position: absolute;
+    right: 0;
+}
+
